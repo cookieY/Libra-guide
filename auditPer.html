@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>容器化 · GitBook</title>
+        <title>权限审核 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,8 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="permission.html" />
     
-    
-    <link rel="prev" href="install.html" />
+    <link rel="prev" href="auditQuery.html" />
     
 
     </head>
@@ -115,7 +113,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3" data-path="container.html">
+        <li class="chapter " data-level="1.3" data-path="container.html">
             
                 <a href="container.html">
             
@@ -305,7 +303,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7.2.3" data-path="auditPer.html">
+        <li class="chapter active" data-level="1.7.2.3" data-path="auditPer.html">
             
                 <a href="auditPer.html">
             
@@ -539,7 +537,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >容器化</a>
+        <a href="." >权限审核</a>
     </h1>
 </div>
 
@@ -554,14 +552,14 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x5BB9;&#x5668;&#x5316;">&#x5BB9;&#x5668;&#x5316;</h1>
+                                <h1 id="&#x6743;&#x9650;&#x5BA1;&#x6838;">&#x6743;&#x9650;&#x5BA1;&#x6838;</h1>
+<p><img src="https://wuchen-1252812685.cos.ap-shanghai.myqcloud.com/img/yearning/20190821105053.jpg" alt="-w2093"></p>
+<h2 id="&#x529F;&#x80FD;">&#x529F;&#x80FD;</h2>
+<p>&#x7528;&#x6237;&#x6743;&#x9650;&#x5BA1;&#x6838;</p>
 <h2 id="&#x6CE8;&#x610F;">&#x6CE8;&#x610F;</h2>
-<p>Yearning&#x5B89;&#x88C5;&#x5305;&#x5185;&#x5DF2;&#x542B;&#x6709;Dockerfile&#x6587;&#x4EF6;,&#x53EF;&#x76F4;&#x63A5;&#x8FDB;&#x884C;build&#x6253;&#x5305;&#x6210;&#x955C;&#x50CF;</p>
-<p><strong>Yearning &#x4ECE;v2.0.4&#x7248;&#x672C;&#x5F00;&#x59CB;&#x652F;&#x6301;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x4F20;&#x53C2;</strong></p>
-<p>&#x5BB9;&#x5668;&#x542F;&#x52A8;&#x65F6;&#x53EF;&#x901A;&#x8FC7;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x7684;&#x65B9;&#x5F0F;&#x4F20;&#x5165;&#x6570;&#x636E;&#x5E93;&#x5730;&#x5740;&#x3002;</p>
-<p>&#x5982;&#x4E0B;&#x6240;&#x793A;</p>
-<pre><code>docker run -d -it -p8000:8000 -e MYSQL_USER=root -e MYSQL_ADDR=10.0.0.3:3306 -e MYSQL_PASSWORD=123123 -e MYSQL_DB=Yearning test/yearning
-</code></pre>
+<p>&#x6743;&#x9650;&#x7531;&#x7528;&#x6237;&#x5728;&#x9996;&#x9875;&#x4E2A;&#x4EBA;&#x4FE1;&#x606F;&#x5904;&#x81EA;&#x4E3B;&#x7533;&#x8BF7;,&#x7BA1;&#x7406;&#x5458;&#x53EF;&#x5728;&#x8BE5;&#x5BA1;&#x6838;&#x9875;&#x9762;&#x51B3;&#x5B9A;&#x662F;&#x5426;&#x7ED9;&#x4E88;&#x7528;&#x6237;&#x7533;&#x8BF7;&#x7684;&#x6743;&#x9650;&#x3002;</p>
+<p>&#x7531;&#x4E8E;&#x7528;&#x6237;&#x53EF;&#x80FD;&#x5B58;&#x5728;&#x80E1;&#x4E71;&#x7533;&#x8BF7;&#x6743;&#x9650;&#x7684;&#x95EE;&#x9898;&#xFF0C;&#x6240;&#x4EE5;<strong>&#x7BA1;&#x7406;&#x5458;&#x5728;&#x67E5;&#x770B;&#x7528;&#x6237;&#x6743;&#x9650;&#x7533;&#x8BF7;&#x5DE5;&#x5355;&#x7684;&#x540C;&#x65F6;&#x53EF;&#x5BF9;&#x5DE5;&#x5355;&#x7533;&#x8BF7;&#x7684;&#x6743;&#x9650;&#x8FDB;&#x884C;&#x4FEE;&#x6539;&#xFF0C;&#x786E;&#x5B9A;&#x5177;&#x4F53;&#x7684;&#x6743;&#x9650;&#x7ED9;&#x4E88;</strong>&#x3002;</p>
+
                                 
                                 </section>
                             
@@ -588,14 +586,10 @@
 
             
                 
-                <a href="install.html" class="navigation navigation-prev " aria-label="Previous page: 安装">
+                <a href="auditQuery.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 查询审核">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
-                
-                <a href="permission.html" class="navigation navigation-next " aria-label="Next page: 权限">
-                    <i class="fa fa-angle-right"></i>
-                </a>
                 
             
         
@@ -604,7 +598,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"容器化","level":"1.3","depth":1,"next":{"title":"权限","level":"1.4","depth":1,"path":"permission.md","ref":"permission.md","articles":[]},"previous":{"title":"安装","level":"1.2","depth":1,"path":"install.md","ref":"install.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["fontsettings","sharing","lunr","search","highlight","livereload"],"pluginsConfig":{"fontsettings":{"family":"sans","size":2,"theme":"white"},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":true,"google":false,"instapaper":false,"twitter":true,"vk":false,"weibo":false},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000},"search":{},"highlight":{},"livereload":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"container.md","mtime":"2019-08-14T05:34:42.586Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-08-21T02:57:22.016Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"权限审核","level":"1.7.2.3","depth":3,"next":{"title":"管理员模块","level":"1.7.3","depth":2,"ref":"","articles":[{"title":"用户","level":"1.7.3.1","depth":3,"path":"user.md","ref":"user.md","articles":[]},{"title":"数据库","level":"1.7.3.2","depth":3,"path":"db.md","ref":"db.md","articles":[]},{"title":"用户权限","level":"1.7.3.3","depth":3,"path":"user_p.md","ref":"user_p.md","articles":[]},{"title":"设置","level":"1.7.3.4","depth":3,"path":"setting.md","ref":"setting.md","articles":[]},{"title":"审核规则","level":"1.7.3.5","depth":3,"path":"rules.md","ref":"rules.md","articles":[]}]},"previous":{"title":"查询审核","level":"1.7.2.2","depth":3,"path":"auditQuery.md","ref":"auditQuery.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["fontsettings","sharing","lunr","search","highlight","livereload"],"pluginsConfig":{"fontsettings":{"family":"sans","size":2,"theme":"white"},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":true,"google":false,"instapaper":false,"twitter":true,"vk":false,"weibo":false},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000},"search":{},"highlight":{},"livereload":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"auditPer.md","mtime":"2019-08-21T02:52:49.995Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-08-21T02:57:22.016Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
