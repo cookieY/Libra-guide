@@ -141,16 +141,48 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="permission.html">
+        <li class="chapter " data-level="1.5" >
             
-                <a href="permission.html">
+                <span>
             
                     
-                    权限
+                    权限设计
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="permission2.html">
+            
+                <a href="permission2.html">
+            
+                    
+                    2.1.7版本及以上
             
                 </a>
             
 
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="permission.html">
+            
+                <a href="permission.html">
+            
+                    
+                    2.0.0 - 2.1.6版本
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
             
         </li>
     
@@ -323,7 +355,7 @@
                 <a href="auditPer.html">
             
                     
-                    权限审核
+                    权限审核(2.1.7版本以下)
             
                 </a>
             
@@ -555,6 +587,21 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="&#x7248;&#x672C;">&#x7248;&#x672C;</h1>
+<h2 id="2019-12-18-yearning-v217">2019-12-18 Yearning v2.1.7</h2>
+<ul>
+<li>1.&#x4FEE;&#x590D;&#x9A73;&#x56DE;&#x7406;&#x7531;&#x65E0;&#x6CD5;&#x67E5;&#x770B;&#x7684;&#x95EE;&#x9898;</li>
+<li>2.&#x4FEE;&#x590D;&#x5C0F;&#x5206;&#x8FA8;&#x7387;&#x4E0B;&#x5BFC;&#x822A;&#x680F;&#x65E0;&#x6CD5;&#x5C55;&#x793A;&#x5168;&#x90E8;&#x4FE1;&#x606F;&#x7684;&#x95EE;&#x9898;</li>
+<li>3.&#x4FEE;&#x590D;&#x4F7F;&#x7528;offset&#x67E5;&#x8BE2;&#x65F6;limit&#x6700;&#x5927;&#x4E0A;&#x9650;&#x5F02;&#x5E38;&#x62A5;&#x9519;&#x7684;&#x95EE;&#x9898;</li>
+<li>4.&#x6DFB;&#x52A0;&#x6570;&#x636E;&#x6E90;&#x540D;&#x79F0;&#x89C4;&#x5219;&#x5141;&#x8BB8;. _&#x7B26;&#x53F7;</li>
+<li>5.&#x65B0;&#x589E;&#x6743;&#x9650;&#x7EC4;&#x529F;&#x80FD;&#x3002;</li>
+<li>6.&#x65B0;&#x589E;&#x5DE5;&#x5355;&#x64A4;&#x9500;&#x6D88;&#x606F;&#x63A8;&#x9001;</li>
+<li>7.&#x4FEE;&#x590D;&#x8BBE;&#x7F6E;&#x9875;&#x9762;&#x66F4;&#x6539;&#x8BBE;&#x7F6E;&#x540E;&#x4F1A;&#x6E05;&#x7A7A;&#x5BA1;&#x6838;&#x89C4;&#x5219;&#x7684;&#x95EE;&#x9898;</li>
+<li>8.&#x4FEE;&#x590D;&#x67E5;&#x8BE2;&#x5BA1;&#x6838;&#x6307;&#x6D3E;&#x5DE5;&#x5355;&#x5C55;&#x793A;&#x9519;&#x8BEF;&#x7684;&#x95EE;&#x9898;</li>
+<li>9.&#x65B0;&#x589E;&#x5220;&#x9664;&#x7A7A;&#x67E5;&#x8BE2;&#x5DE5;&#x5355;&#x6309;&#x94AE;&#xFF0C;&#x4FBF;&#x4E8E;&#x67E5;&#x8BE2;&#x5BA1;&#x8BA1;</li>
+<li>10.&#x65B0;&#x589E;docker-compose&#x6587;&#x4EF6;</li>
+<li>11.autotask &#x6DFB;&#x52A0;&#x65B0;&#x4EFB;&#x52A1;&#x65F6;&#x65B0;&#x589E;&#x641C;&#x7D22;&#x529F;&#x80FD;&#x3002;</li>
+<li>12.&#x5176;&#x4ED6;&#x4F18;&#x5316;</li>
+</ul>
 <h2 id="2019-11-07-yearning-v2161">2019-11-07 Yearning v2.1.6.1</h2>
 <p>1.&#x4FEE;&#x590D;&#x8868;&#x5185;&#x6709;text,json&#x7B49;[]byte&#x7C7B;&#x578B;&#x5B57;&#x6BB5;&#x65F6;&#x6700;&#x5C0F;&#x5316;&#x751F;&#x6210;&#x56DE;&#x6EDA;&#x8BED;&#x53E5;panic&#x7684;&#x95EE;&#x9898;</p>
 <p>2.&#x66F4;&#x65B0;&#x4E86;&#x57FA;&#x7840;&#x4F9D;&#x8D56;&#x5305;&#x7248;&#x672C;,&#x4FEE;&#x6539;&#x4E86;binlog&#x8FDE;&#x63A5;&#x4FE1;&#x606F;&#x65E5;&#x5FD7;&#x7EA7;&#x522B;&#x4E0D;&#x51C6;&#x786E;&#x7684;&#x95EE;&#x9898;</p>
@@ -748,7 +795,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"版本","level":"1.10","depth":1,"next":{"title":"二次开发","level":"1.11","depth":1,"path":"developer.md","ref":"developer.md","articles":[{"title":"如何启动","level":"1.11.1","depth":2,"path":"args.md","ref":"args.md","articles":[]}]},"previous":{"title":"赞助/定制化","level":"1.9","depth":1,"path":"pay.md","ref":"pay.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["fontsettings","sharing","lunr","search","highlight","livereload"],"pluginsConfig":{"fontsettings":{"family":"sans","size":2,"theme":"white"},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":true,"google":false,"instapaper":false,"twitter":true,"vk":false,"weibo":false},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000},"search":{},"highlight":{},"livereload":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"version.md","mtime":"2019-11-14T03:50:01.566Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-11-14T03:50:12.816Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"版本","level":"1.10","depth":1,"next":{"title":"二次开发","level":"1.11","depth":1,"path":"developer.md","ref":"developer.md","articles":[{"title":"如何启动","level":"1.11.1","depth":2,"path":"args.md","ref":"args.md","articles":[]}]},"previous":{"title":"赞助/定制化","level":"1.9","depth":1,"path":"pay.md","ref":"pay.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["fontsettings","sharing","lunr","search","highlight","livereload"],"pluginsConfig":{"fontsettings":{"family":"sans","size":2,"theme":"white"},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":true,"google":false,"instapaper":false,"twitter":true,"vk":false,"weibo":false},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000},"search":{},"highlight":{},"livereload":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"version.md","mtime":"2019-12-18T02:17:30.362Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-18T02:41:24.389Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
